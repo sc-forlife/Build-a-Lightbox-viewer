@@ -1,9 +1,20 @@
+#lightbox-image {
+  width: 1400px;
+  height: auto;
+  transform: translateY(50%);
+  margin: 0px auto;
+  position: absolute;
+  bottom: 50%;
+}
+
 .lightbox {
-  display: none;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.386);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
+  display: none;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .gallery {
