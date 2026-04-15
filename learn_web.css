@@ -1,10 +1,9 @@
 #lightbox-image {
-  width: 1400px;
-  height: auto;
-  transform: translateY(50%);
-  margin: 0px auto;
-  position: absolute;
-  bottom: 50%;
+  width: auto;
+  height: 400px;
+  /* transform: translateY(50%); */
+  /* position: absolute;
+  bottom: 50%; */
 }
 
 .lightbox {
@@ -13,8 +12,8 @@
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   display: none;
-  /* display: flex;
-  justify-content: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery {
@@ -32,4 +31,23 @@
   height: auto;
   background-position: center;
   background-size: cover;
+}
+
+#close-btn {
+  width: 30px;
+  justify-self: start;
+  height: 30px;
+  position: relative;
+  top: -215px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid;
+  transition: background-color 0.2s linear;
+}
+
+#close-btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
 }
