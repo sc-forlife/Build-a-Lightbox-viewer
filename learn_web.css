@@ -8,9 +8,6 @@ body {
 #lightbox-image {
   width: auto;
   height: 400px;
-  /* transform: translateY(50%); */
-  /* position: absolute;
-  bottom: 50%; */
 }
 
 .lightbox {
@@ -19,6 +16,7 @@ body {
   background-color: rgba(0, 0, 0, 0.85);
   position: fixed;
   top: 0px;
+  left: 0px;
   display: none;
   justify-content: center;
   align-items: center;
